@@ -23,51 +23,52 @@
     </div>
   </header> <!--/.main-header end-->
 
-  <div class="container banner"> <!--/.banner start-->
+  <div class="container banner clearfix"> <!--/.banner start-->
     <img class="profile" src="img/responsive-layout-profile.png" alt="Picture of Zach Greeley">
-    <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+    <p class="intro ">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
   </div> <!--/.banner end-->
 
-  <div class="clearfix">
+  <div class="col clearfix">
     <h2 id="portfolio_link" class="section col">PORTFOLIO</h2>
 
-      <div class="mark_page col">
+  <div class="portfolio clearfix">
+      <div class="projects">
           <img class="port-img" src="img/portfolio-1.png" alt="Picture of the Marketing Page">
           <h2 class="title">Marketing Page</h2>
-          <p class="discription">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+          <p class="discription marketing">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
       </div>
 
-      <div class="search_page col">
+      <div class="projects">
           <img src="img/portfolio-2.png" alt="Picture of the Search Page">
           <h2 class="title">Search Page</h2>
           <p class="discription">This project searches through a specific database to find information that the user is trying to look up.</p>
       </div>
 
-      <div class="travel_app col">
+      <div class="projects">
           <img src="img/portfolio-3.png" alt="Picture of Travel App">
           <h2 class="title">Travel App</h2>
           <p class="discription">This project compares travel times based on different transportation methods and tells you the best one.</p>
       </div>
 
-      <div class="map_spots col">
+      <div class="projects">
           <img src="img/portfolio-4.png" alt="Picture street location for spots">
           <h2 class="title">Map of Favorite Spots</h2>
           <p class="discription">This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
       </div>
 
-      <div class="photo_gallery col">
+      <div class="projects">
           <img src="img/portfolio-5.png" alt="Picture of Photo Gallery">
           <h2 class="title">Photo Gallery</h2>
           <p class="discription">This project show pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
       </div>
 
-      <div class="calculator col">
+      <div class="projects">
           <img src="img/portfolio-6.png" alt="">
           <h2 class="title">Calculator</h2>
           <p class="discription">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
       </div>
-
-      <div id="skills_link" class="skills col">
+  </div>
+      <div id="skills_link" class="skills">
         <h2 class="section ">SKILLS</h2>
           <h3>I'm fluent in:</h3>
           <ul>
@@ -77,31 +78,34 @@
               <li>Android Dev</li>
               <li>IOS Dev</li>
           </ul>
-          <p class="discription">I don't know who you are. I don't know what you want. If you are looking for a skilled developer, I can tell you I'm that person. I have a very particular set of skills, skills I have acquired over a very long career. Skills that make me a nightmare for messy code. If you hire me now, that'll be the end of all your problems. I will not look for you, I will not pursue you if you don’t want me. But if you do, I will look for you, I will find you, and I will make you the best website you have ever seen!</p>
+          <p class="discription discription_box">I don't know who you are. I don't know what you want. If you are looking for a skilled developer, I can tell you I'm that person. I have a very particular set of skills, skills I have acquired over a very long career. Skills that make me a nightmare for messy code. If you hire me now, that'll be the end of all your problems. I will not look for you, I will not pursue you if you don’t want me. But if you do, I will look for you, I will find you, and I will make you the best website you have ever seen!</p>
       </div>
     </div>
 
       <div id="contact_link" class="contact col">
           <h2 class="section">CONTACT</h2>
-            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+            <p class="discription_box">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
             <p>Phone <span class="number">+1 (111) 555-1234</span></p>
             <p>Email <span class="email">email@yoursite.com</span></p>
       </div>
-  <footer class="main-footer col">
-    <ul class="footer-mobile clearfix">
-      <li class="footer-mobile-left">Zach Greeley</li>
-      <li class="footer-mobile-right"><a href="#top_link">BACK TO TOP</li>
 
+      <footer class="col clearfix">
+
+
+        <ul class="footer-main">
+          <li class="footer-main-left">Zach Greeley</li>
+          <li class="footer-main-right"><a href="#contact_link">CONTACT</a></li>
+          <li class="footer-main-right"><a href="#skills_link">SKILLS</a></li>
+          <li class="footer-main-right"><a href="#portfolio_link">PORTFOLIO</a></li>
+          <li class="footer-main-right"><a href="#top_link">HOME</a></li>
+        </ul>
+
+    <ul class="footer-mobile ">
+      <li class="footer-mobile-left">Zach Greeley</li>
+      <li class="footer-mobile-right"><a href="#top_link">BACK TO TOP</a></li>
     </ul>
 
-    <nav class="footer-nav clearfix">
-      <ul>
-        <li><a href="#home_link">HOME</a></li>
-        <li><a href="#portfolio_link">PORTFOLIO</a></li>
-        <li><a href="#skills_link">SKILLS</a></li>
-        <li><a href="#contact_link">CONTACT</a></li>
-      </ul>
-    </nav> <!--/.footer-nav end, for med/large-->
+ <!--/.footer-nav end, for med/large-->
   </footer> <!--/.main-footer end-->
 
 </body>
