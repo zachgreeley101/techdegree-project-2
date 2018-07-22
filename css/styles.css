@@ -240,7 +240,7 @@ footer {
       padding: 2.1em 0;
       text-align: left;
       line-height: 1.5em;
-      font-size: 1.1em;
+      font-size: 1.1875em;
     }
 
     .container,
@@ -251,6 +251,7 @@ footer {
 
     .profile {
       float: right;
+      margin: 45px 0px 60px 5px;
     }
 
     .projects {
@@ -311,20 +312,40 @@ footer {
     .footer-main-right a {
       padding-left: 20px
     }
-
-
-
-
-
-
 }
-
 
 @media (min-width: 1024px) {
-    body {
-        background-color: green;
+
+    .name {
+      text-align: left;
+      display: inline-block;
     }
+
+    .main-nav {
+      float: right;
+      text-align: right;
+      padding: 1.25em;
+    }
+
+    .main-nav li {
+      margin: 0 -0.625em
+    }
+
+    .intro {
+      font-size: 1.5625em;
+      line-height: 1.2em;
+    }
+
+    .profile {
+      margin: 3.5em 0px 60px 5px;
+    }
+
+    .projects {
+      width: 33.3%
+    }
+
 }
+
 
 
 
