@@ -18,7 +18,7 @@ a {
 h1,
 a,
 h2 {
-  font-family: Doppio One;
+  font-family: "Doppio One";
   color: #4a4a4a;
   font-weight: bold;
 }
@@ -148,14 +148,14 @@ footer {
 }
 
 .skills p {
-  border: 1px #73737326 solid;
+  border: 1px #73737326 solid; /* hex with alpha */
   border-top: none;
   padding: 3px 10px;
 }
 
 .contact {
   padding-bottom: 3.125em;
-  font-family: Doppio One;
+  font-family: "Doppio One";
 }
 
 .contact p {
@@ -193,12 +193,12 @@ footer {
 .footer-mobile::before {
   content: "";
   display: block;
-  border-top: 2px #73737326 solid;
+  border-top: 2px #73737326 solid; /* hex with alpha */
 }
 
 .footer-mobile li{
   display: inline-block;
-  font-family: Doppio One;
+  font-family: "Doppio One";
   padding: 30px 0;
   font-weight: bold;
 }
@@ -251,7 +251,7 @@ footer {
 
     .profile {
       float: right;
-      margin: 45px 0px 60px 5px;
+      margin: 45px 0px 60px 10px;
     }
 
     .projects {
@@ -291,12 +291,12 @@ footer {
     .footer-main::before {
       content: "";
       display: block;
-      border-top: 2px #73737326 solid;
+      border-top: 2px #73737326 solid; /* hex with alpha */
     }
 
     .footer-main li{
       display: inline-block;
-      font-family: Doppio One;
+      font-family: "Doppio One";
       padding: 30px 0;
       font-weight: bold;
     }
@@ -332,12 +332,12 @@ footer {
     }
 
     .intro {
-      font-size: 1.5625em;
+      font-size: 1.4375em;
       line-height: 1.2em;
     }
 
     .profile {
-      margin: 3.5em 0px 60px 5px;
+      margin: 3.5em 0px 60px 45px;
     }
 
     .projects {
@@ -345,27 +345,3 @@ footer {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* TODO: check all paddings, make sure they should not be margins */
-
-
-/* .main-nav li:hover {
-  background: black;
-}
-
-.main-nav a:hover {
-  color: white;
-} */
